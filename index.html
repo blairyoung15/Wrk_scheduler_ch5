@@ -19,124 +19,129 @@
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
-    <p> <span id="currentDay" class="lead"></span></p>
+    <p id="currentDay" class="lead"></p>
   </header>
 
 
-  <div class="container col-10 justify-content-center">
+  <div class="container col-10 col-lg-8 p-4 d-flex flex-column justify-content-center">
     <!-- Timeblocks go here -->
     <!-- 9 am timeblock-->
-    <div id="9am" class="row">
+    <div id="9am" class="row d-flex align-items-center">
       <div class="col-1 hour">
-        9AM
+       9AM
       </div>
-      <div class="col-10 task"></div>
-      <button class="col-1 saveBtn d-flex align-items-center">
-        <span class="oi oi-lock-locked m-auto "></span>
+        <textarea class="class="col-10 p-0 task" d-block" aria-label="With textarea"></textarea>
+      <button class="col-1 saveBtn align-items-center">
+        <span class="oi oi-lock-locked m-auto"></span>
       </button>
     </div>
     <!-- 9 am timeblock end -->
 
     <!-- 10 am timeblock-->
-    <div id="10am" class="row">
+    <div id="10am" class="row d-flex align-items-center">
       <div class="col-1 hour">
         10AM
       </div>
-      <div class="col-10 task"></div>
-      <button class="col-1 saveBtn d-flex align-items-center">
+      <div class="col-10 p-0 task">
+        <textarea class="col-10 p-0 task d-block" aria-label="With textarea"></textarea>
+      <button class="col-1 saveBtn align-items-center">
         <span class="oi oi-lock-locked m-auto"></span>
       </button>
     </div>
     <!-- 10 am timeblock end -->
 
     <!-- 11 am timeblock-->
-    <div id="11am" class="row">
+    <div id="11am" class="row d-flex align-items-center">
       <div class="col-1 hour">
         11AM
       </div>
-      <div class="col-10 task"></div>
-      <button class="col-1 saveBtn d-flex align-items-center">
+        <textarea class="col-10 p-0 task d-block" aria-label="With textarea"></textarea>
+      <button class="col-1 saveBtn align-items-center">
         <span class="oi oi-lock-locked m-auto"></span>
       </button>
     </div>
     <!-- 11 am timeblock end -->
 
      <!-- 12 pm timeblock-->
-     <div id="11am" class="row">
+     <div id="12PM" class="row d-flex align-items-center">
       <div class="col-1 hour">
         12PM
       </div>
-      <div class="col-10 task"></div>
-      <button class="col-1 saveBtn d-flex align-items-center">
+      <textarea class="col-10 p-0 task d-block" aria-label="With textarea"></textarea>
+      <button class="col-1 saveBtn align-items-center">
         <span class="oi oi-lock-locked m-auto"></span>
       </button>
     </div>
     <!-- 12 pm timeblock end -->
 
      <!-- 1 pm timeblock-->
-     <div id="11am" class="row">
+     <div id="1PM" class="row d-flex align-items-center">
       <div class="col-1 hour">
         1PM
       </div>
-      <div class="col-10 task"></div>
-      <button class="col-1 saveBtn d-flex align-items-center">
+        <textarea class="col-10 p-0 task d-block" aria-label="With textarea"></textarea>
+      <button class="col-1 saveBtn align-items-center">
         <span class="oi oi-lock-locked m-auto"></span>
       </button>
     </div>
     <!-- 1 pm timeblock end -->
 
      <!-- 2 pm timeblock-->
-     <div id="11am" class="row">
+     <div id="2PM" class="row d-flex align-items-center">
       <div class="col-1 hour">
-        2PM
+       2PM
       </div>
-      <div class="col-10 task"></div>
-      <button class="col-1 saveBtn d-flex align-items-center">
+        <textarea class="col-10 p-0 task d-block" aria-label="With textarea"></textarea>
+      <button class="col-1 saveBtn align-items-center">
         <span class="oi oi-lock-locked m-auto"></span>
       </button>
     </div>
     <!-- 2 pm timeblock end -->
 
      <!-- 3 pm timeblock-->
-     <div id="11am" class="row">
+     <div id="3PM" class="row d-flex align-items-center">
       <div class="col-1 hour">
-        3PM
+       3PM
       </div>
-      <div class="col-10 task"></div>
-      <button class="col-1 saveBtn d-flex align-items-center">
+        <textarea class="col-10 p-0 task d-block" aria-label="With textarea"></textarea>
+      <button class="col-1 saveBtn align-items-center">
         <span class="oi oi-lock-locked m-auto"></span>
       </button>
     </div>
     <!-- 3 pm timeblock end -->
 
      <!-- 4 pm timeblock-->
-     <div id="11am" class="row">
+     <div id="4PM" class="row d-flex align-items-center">
       <div class="col-1 hour">
-        4PM
+      4PM
       </div>
-      <div class="col-10 task"></div>
-      <button class="col-1 saveBtn d-flex align-items-center">
+        <textarea class="col-10 p-0 task d-block" aria-label="With textarea"></textarea>
+      <button class="col-1 saveBtn align-items-center">
         <span class="oi oi-lock-locked m-auto"></span>
       </button>
     </div>
     <!-- 4 pm timeblock end -->
 
      <!-- 5 pm timeblock-->
-     <div id="11am" class="row">
+     <div id="5PM" class="row d-flex align-items-center">
       <div class="col-1 hour">
-        5PM
+       5PM
       </div>
-      <div class="col-10 task"></div>
-      <button class="col-1 saveBtn d-flex align-items-center">
-        <span class="oi oi-lock-locked m-auto"></span>
+        <textarea class="col-10 p-0 task d-block" aria-label="With textarea"></textarea>
+      <button class="col-1 saveBtn align-items-center">
+        <span class="oi oi-lock-locked align-items-center"></span>
       </button>
     </div>
     <!-- 5 pm timeblock end -->
   </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-ui-touch-punch@0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  <script src="/assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
