@@ -44,7 +44,7 @@ function auditTime() {
 auditTime()
 
   setInterval(function() {
-    $(".card .list-group-item").each(function() {
+    $(".row .task").each(function() {
       auditTask($(this));
     });
   }, 1800000);
